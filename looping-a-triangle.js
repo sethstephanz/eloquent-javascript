@@ -1,8 +1,7 @@
 function triangle(n) {
-  let phrase = "#";
   let i = 1;
   while (i <= n) {
-    console.log(phrase.repeat(i));
+    console.log('#'.repeat(i));
     i++;
   }
 }
