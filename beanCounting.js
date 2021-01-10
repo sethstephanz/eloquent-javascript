@@ -22,4 +22,4 @@ function countChar (string, char) {
   return counter;
 }
 
-countChar('Roll that beautiful bean footage!', 'b'); //--> 4
+countChar('Roll that beautiful bean footage!', 'b'); //--> 2
