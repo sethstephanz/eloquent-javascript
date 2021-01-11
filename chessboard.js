@@ -17,7 +17,7 @@ function myFunction (n, m) {
 }
 
 //Sample input: myFunction(8, 4)
-/Expected output: 
+//Expected output: 
 //   # # # #
 // # # # # 
 //  # # # #
