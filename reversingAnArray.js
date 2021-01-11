@@ -1,5 +1,5 @@
 // For this exercise, write two functions, reverseArray and reverseArrayInPlace.
-// The first, reverseArray, takes an as argument and produces a new array that has the same elements in the inverse order.
+// The first, reverseArray, takes an array as argument and produces a new array that has the same elements in the inverse order.
 
 function reverseArray(array) {
   let newArr = [];
@@ -23,5 +23,5 @@ function reverseArrayInPlace(array) {
 
 reverseArrayInPlace([1, 100, -50]); //--> [-50, 1, 100]
 
-// This solution technically works but I think it may go against the spirit of the exercise. 
+// ^This solution technically works but I think it may go against the spirit of the exercise. 
 // May come back to implement a more 'manual' method later on.
