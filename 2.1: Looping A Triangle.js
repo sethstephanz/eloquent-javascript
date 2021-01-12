@@ -6,10 +6,7 @@ function triangle(n) {
   }
 }
 
-triangle(7);
-
-//sample input: 7
-//expected output:
+triangle(7); //-->
 // #
 // ##
 // ###
