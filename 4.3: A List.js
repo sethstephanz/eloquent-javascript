@@ -28,6 +28,27 @@ listToArray = list => {
 listToArray(list); //--> [ '1: A', '2: B', '3: C' ]
 
 //Then add a helper function, prepend, which takes an element and a list and creates a new list that adds the element to the front of the input list, 
+
+let newList = {
+  1: 'B', 
+  2: 'C', 
+  3: 'D'};
+
+let element = 'A';
+
+prepend = list => {
+  let newObj = {};
+  newObj[1] = element;
+  for (let i in list) {
+    i++;
+    newObj[i] = list[i];
+  }
+
+  return newObj;
+}
+
+prepend(newList);
+
 //and nth, which takes a list and a number and returns the element at the given position in the list (with zero referring to the first element)
 //or undefined when there is no such element. 
 
